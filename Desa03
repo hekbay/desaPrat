@@ -1,0 +1,4 @@
+String frase = "Jogos de terror são legais";
+String letra = "o";
+        
+System.out.println(frase.split(letra).length-1);
