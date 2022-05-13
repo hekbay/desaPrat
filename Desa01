@@ -1,0 +1,18 @@
+int valor = 0;        
+        switch(operacao){
+            case "+":
+                if(operacao == "+"){
+                    valor = numero + outroNumero;
+                }
+            break;
+            case "-":
+                if(operacao == "-"){
+                    valor = numero - outroNumero;
+                }
+            break;
+            default:
+                if(operacao != "-" || operacao != "+"){
+                 valor = 0;
+                }
+            break;
+        }
